@@ -1,0 +1,10 @@
+#################################################
+PROJETO DESENVOLVIDO POR: RODRIGO RUY OLIVEIRA
+CONTATO: rro.oliveira@gmailcom / (11) 98209-5120
+#################################################
+
+PROCEDIMENTOS PARA EXECUTAR O PROJETO:
+
+1) CRIAR O BANCO DE DADOS (CREATE DATABASE leroy)
+2) DIGITAR NA RAIZ DO DIRETÓRIO DO PROJETO VIA LINHA DE COMANDO PARA CRIAR AS TABELAS: php artisan migrate
+3) HABILITAR O CONTROLE DE FILAS (SERÁ CRIAR UM ARQUIVO DE LOG NO DIRETÓRIO storage/logs: php artisan queue:listen
